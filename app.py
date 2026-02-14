@@ -37,6 +37,7 @@ def predict_species(sep_len,sep_width,pet_len,pet_width,scaler_path,model_path):
 import streamlit as st
 
 
+
 st.title("Iris Species Prediction")
 
 sep_len=st.number_input("Enter sepal length",min_value=0.0,step=0.1,value=5.1)
